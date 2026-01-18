@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+body{
+    background-color: #1a0B2e;
+}
 
 /* shared style */
     .container-width{
@@ -27,11 +30,13 @@
         color: #FFFFFF;
         font-size: 16px;
         line-height: 20px;
+        text-align: center;
     }
     .title-style{
         color: #FFFFFF;
         font-weight: bold;
         font-size: 48px;
+        text-align: center;
     }
 
 
@@ -55,7 +60,7 @@
 nav{
   display: flex; 
   align-items: center;         
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px 50px;
   background-color: #1a0B2e;
 }
@@ -95,6 +100,87 @@ nav{
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(255, 60, 172, 0.4);
 }
+
+
+
+
+/* hero banner */
+#banner-section {
+    max-width: 1600px;
+    width: 100%;
+    height: 556px;
+    background-image: url('assets/hero-bg.png'); 
+    background-size: cover; 
+    background-position: center;
+    margin-top: 70px;
+}
+
+.mic-circle {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+
+    background-image: url(assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 80px;
+}
+.mic-circle img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+.text-container{
+    margin-top: 120px;
+    margin-bottom: 30px;
+     
+}
+
+.badge{
+    position: absolute;
+    top: 10px;
+    right: -15px;
+    background-color: #00FF88;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 888px;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.txt-p{
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.btn {
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.btn-spotify {
+    background: linear-gradient(to right, #8b5cf6, #ec4899);
+    color: white;
+}
+.btn-subscribe {
+    background: transparent;
+    border: 2px solid #8b5cf6;
+    color: #00FF88;
+}
+
 
 
 
