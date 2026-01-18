@@ -103,7 +103,6 @@ nav{
 
 
 
-
 /* hero banner */
 #banner-section {
     max-width: 1600px;
@@ -179,7 +178,67 @@ nav{
     background: transparent;
     border: 2px solid #8b5cf6;
     color: #00FF88;
-}
+}  /* header section end */
+
+
+
+
+/* main section start */
+  #about-section{
+    width: 100%;
+    background-color: #1a0B2e;
+  }
+  .about-content{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .about-title h2{
+    margin-top: 100px;
+    color: #f62595;
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .about-content p{
+    padding: 20px;
+  }
+  .about-hr{
+    max-width: 1200px;
+    border: 1px solid rgb(125, 113, 134);
+    color: #00FF88;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .about-rating{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+  }
+  .rating-card{
+    width: 240px;  
+    padding: 20px;
+    box-shadow: 0 0 4px #3c225d;
+
+  }
+  .rating-title{
+   font-size: 48px;
+   color: #00FF88;
+   font-weight: bold;
+   text-align: center;
+  }
+  .rating-desc{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+  }
+
 
 
 

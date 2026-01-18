@@ -40,8 +40,17 @@
   }
 
 
-
-
+  /* main section  start */
+   
+  /*about section */
+  .about-hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .about-rating{
+    flex-wrap: wrap;
+  }
 
 
 
