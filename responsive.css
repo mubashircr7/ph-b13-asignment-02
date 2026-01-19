@@ -49,8 +49,19 @@
     margin-top: 50px;
   }
   .about-rating{
+    justify-content: center;
     flex-wrap: wrap;
   }
+
+/* why choice section*/
+    .grid{
+ 
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 50px;
+}
+
 
 
   /* features section */
@@ -74,6 +85,7 @@
    .host-desc p{
     text-align: center;
    }
+   
 
 
 

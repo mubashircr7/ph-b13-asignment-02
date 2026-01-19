@@ -187,14 +187,12 @@ nav{
   #about-section{
     margin-top: 80px;
     width: 100%;
-    border: 2px solid;
     background-color: #1a0B2e;
   }
   .about-content{
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
-    border: solid wheat;
   }
   .about-title h2{
     color: #f62595;
@@ -217,12 +215,11 @@ nav{
   }
 
   .about-rating{
-    border: 2px solid white;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 40px;
   }
 
@@ -248,12 +245,69 @@ nav{
 
 
 
+/* why section */
+#why-section{
+  background: #1b0033;
+  padding: 60px 20px;
+  color: white;
+}
+
+#why-section h2{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.grid{
+  max-width: 1100px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card{
+  background: #1a0B2e;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.card h3{
+  margin-bottom: 10px;
+}
+
+.card p{
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* big card */
+.big{
+  grid-row: span 2;
+}
+
+.icon{
+  width: 32px;
+  margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
   /* features episodes  section*/
 
   #features-section{
     margin-top: 100px;
     width: 100%;
-    border: 2px solid blanchedalmond;
+
   }
   .features-title{
     max-width: 1200px;
@@ -268,9 +322,8 @@ nav{
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
-    border: 5px solid gold;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 40px;
   }
   .features-card{
@@ -311,6 +364,7 @@ nav{
   #host-section{
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 100px;
     border: 2px solid white;
   }
 
@@ -345,6 +399,65 @@ nav{
     gap: 30px;
     padding: 20px;
   }
+
+
+
+  /*footer  section */
+/* footer section */
+.footer{
+  width: 100%;
+  height: 356px;
+  max-width: 1600px;
+  background-image:
+    url("assets/hero-bg.png");
+
+  background-size: cover;  
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+.logo{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.logo span{
+  color: #ff2bdc;
+}
+.social-links{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  margin-bottom: 20px;
+}
+.social-links a{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.social-links img{
+  width: 22px;
+}
+.copy{
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+
+
+
 
  
 
