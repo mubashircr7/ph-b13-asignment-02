@@ -2,7 +2,7 @@
 
 
 
-@media (max-width: 700px){
+@media (max-width: 640px){
 
 /* nav section */
    .nav-item{
@@ -70,12 +70,4 @@
    .host-desc p{
     text-align: center;
    }
-   
-
-
-
-
-
-
-
 }
