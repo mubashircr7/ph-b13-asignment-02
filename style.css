@@ -185,16 +185,18 @@ nav{
 
 /* main section start */
   #about-section{
+    margin-top: 80px;
     width: 100%;
+    border: 2px solid;
     background-color: #1a0B2e;
   }
   .about-content{
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
+    border: solid wheat;
   }
   .about-title h2{
-    margin-top: 100px;
     color: #f62595;
     text-align: center;
     font-weight: bold;
@@ -211,20 +213,25 @@ nav{
     color: #00FF88;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 10px;
   }
 
   .about-rating{
-    margin-top: 50px;
+    border: 2px solid white;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 20px;
   }
+
   .rating-card{
-    width: 240px;  
+    width: 240px; 
+    margin-top: 30px; 
+    margin-bottom: 30px;
     padding: 20px;
     box-shadow: 0 0 4px #3c225d;
-
   }
   .rating-title{
    font-size: 48px;
@@ -239,6 +246,107 @@ nav{
     text-align: center;
   }
 
+
+
+  /* features episodes  section*/
+
+  #features-section{
+    margin-top: 100px;
+    width: 100%;
+    border: 2px solid blanchedalmond;
+  }
+  .features-title{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 30px;
+    color:#FFFFFF;
+
+  }
+
+  .features-card-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 5px solid gold;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .features-card{
+   width: 350px;
+   height: 500px;
+   background-color: #1a0B2e;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   border-radius: 20px;
+   box-shadow: 0px 4px 22px black;
+  }
+  .features-title{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .features-desc{
+   color: #ccade8;
+   text-align: justify;
+   padding: 15px;
+  }
+  .ifm-style{
+    border-radius: 20px;
+  }
+  .clock-para{
+    
+    color: #00FF88;
+    font-weight: bold;
+    padding: 25px;
+  }
+
+
+
+  /* the host section */
+
+  #host-section{
+    width: 100%;
+    margin-top: 100px;
+    border: 2px solid white;
+  }
+
+  .host-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    background-color: #1a0B2e;
+    box-shadow: 0px 4px 22px black;
+    border-radius: 20px;
+  }
+
+  .host-image img{
+    padding: 20px;
+  }
+  .host-desc{
+    padding: 20px
+  }
+  .host-desc h2{
+    text-align: left;
+  }
+  .host-desc p{
+    text-align: justify;
+  }
+ 
+  .icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+ 
 
 
 

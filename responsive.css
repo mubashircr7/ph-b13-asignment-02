@@ -53,6 +53,29 @@
   }
 
 
+  /* features section */
+   .features-card-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   /* host section */
+   .host-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+   }
+   .host-desc h2{
+      text-align: center;
+   }
+   .host-desc p{
+    text-align: center;
+   }
+
+
 
 
 
