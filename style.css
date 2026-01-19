@@ -47,59 +47,78 @@ body{
 /* header section */
 
   /*nav section */
-.menu-icon{
-  display: none;
-  font-size: 28px;
-  color: white;
-  cursor: pointer;
+
+header{
+  background: #1a0b2e;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-#menu-toggle{
-  display: none;
-}
+
 
 nav{
-  display: flex; 
-  align-items: center;         
-  justify-content: space-around;
-  padding: 20px 50px;
-  background-color: #1a0B2e;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-logo {
-  font-size: 48px;
+
+.logo{
+  font-size: 32px;
   font-weight: bold;
-  color: #FFFFFF;
+  color: white;
 }
-.nav-logo span {
-  color: fuchsia;
+.logo span{
+  color: #ff2bdc;
 }
 
-.nav-item {
+
+.nav-item{
   display: flex;
   gap: 30px;
+  list-style: none;
 }
-.nav-item a {
+.nav-item a{
+  color: rgb(186, 174, 174);
   text-decoration: none;
-  color: #e1d5d5;
   font-size: 16px;
 }
-.nav-item a:hover {
+.nav-item a:hover{
   color: #FFFFFF;
 }
 
-.nav-button a{
-  text-decoration: none;
-  padding: 10px 22px;
-  border-radius: 25px;
-  color: #FFFFFF;
-  font-size: 15px;
-  background: linear-gradient(90deg, #ff3cac, #784ba0, #2b86c5);
-  transition: all 0.3s ease;
+
+.nav-button{
+  background: linear-gradient(135deg,#ff2bdc,#ff8a00);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+
+  transition: all 0.3s ease; 
 }
-.nav-button a:hover{
+.nav-button:hover{
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(255, 60, 172, 0.4);
+  box-shadow: 0 10px 25px rgba(255,45,220,0.4);
 }
+
+.menu-icon{
+  display: none;
+  width: 28px;
+}
+.nav-line{
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #ff2bdc,
+    transparent);
+    opacity: 0.7;
+}
+
 
 
 
@@ -112,6 +131,7 @@ nav{
     background-size: cover; 
     background-position: center;
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .mic-circle {
@@ -186,6 +206,7 @@ nav{
 /* main section start */
   #about-section{
     margin-top: 80px;
+    margin-bottom: 40px;
     width: 100%;
     background-color: #1a0B2e;
   }
@@ -228,7 +249,8 @@ nav{
     margin-top: 30px; 
     margin-bottom: 30px;
     padding: 20px;
-    box-shadow: 0 0 4px #3c225d;
+    background-color: #250D44;
+    box-shadow: 0 0 5px #7e6999;
   }
   .rating-title{
    font-size: 48px;
@@ -247,7 +269,8 @@ nav{
 
 /* why section */
 #why-section{
-  background: #1b0033;
+  width: 100%;
+  background: #250D44;
   padding: 60px 20px;
   color: white;
 }
@@ -259,8 +282,8 @@ nav{
 }
 
 .grid{
-  max-width: 1100px;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -268,7 +291,7 @@ nav{
 }
 
 .card{
-  background: #1a0B2e;
+  background: #351165;
   padding: 25px;
   border-radius: 16px;
 }
@@ -307,7 +330,7 @@ nav{
   #features-section{
     margin-top: 100px;
     width: 100%;
-
+    background-color: #1a0634;
   }
   .features-title{
     max-width: 1200px;
@@ -329,11 +352,11 @@ nav{
   .features-card{
    width: 350px;
    height: 500px;
-   background-color: #1a0B2e;
+   background-color: #250D44;
    margin-top: 50px;
    margin-bottom: 50px;
    border-radius: 20px;
-   box-shadow: 0px 4px 22px black;
+   box-shadow: 0px 4px 22px rgb(4, 4, 4);
   }
   .features-title{
     padding: 10px;
@@ -365,7 +388,7 @@ nav{
     width: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
-    border: 2px solid white;
+
   }
 
   .host-container{
@@ -374,7 +397,7 @@ nav{
     margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
-    background-color: #1a0B2e;
+    background-color: #250D44;
     box-shadow: 0px 4px 22px black;
     border-radius: 20px;
   }
